@@ -1,7 +1,7 @@
 printf "Full Name of the file to Copy(.pdf and everything):"
 read name_file
 
-printf "Title(Only the name, without .pdf):"
+printf "New Title(Only the name, without .pdf):"
 read title
 
 printf "dFirstPage:"
@@ -16,7 +16,7 @@ echo "Last Page:$n2"
 echo "Title:$title"
 echo "Name of the file to Copy:$name_file"
 
-printf "Remove after exit?Y/N:"
+printf "Remove the file index.sh in the path of the new file after exit?Y/N:"
 read delete
 if [ $delete = "Y" ]; then 
   echo "Ok, will delete."
